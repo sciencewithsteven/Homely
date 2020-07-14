@@ -1,10 +1,8 @@
 const bodyParser = require('body-parser');
 const express = require('express');
 const app = express();
-const dbGen = require('../database/propMaker.js');
 const db = require('../database/index.js');
 const helper = require('../database/helper.js');
-const axios = require('axios');
 
 app.use( bodyParser.json() );
 app.use( bodyParser.urlencoded({ extended: true }) );
@@ -20,21 +18,17 @@ app.get('/home/similar', (req, res) => {
   var bed = req.params.bed;
   var bath = req. params.bath;
 
-  db.similarListings(bed, bath, (err, response) =>{  // callback made in route call
+  db.similarListings(bed, bath, (err, response) =>{
     if (err) {
       console.error(err)
-
       res.sendStatus(400)
     } else {
-      console.log('Successful Data Call')
-      // res.end(JSON.stringify(response))
-      // JSON.stringify() looks like a mess on Postman
-      res.json(response) // res.json() is a lot more presentable in Postman
+      res.json(response)
     }
   })
 });
 
-app.get('/home/newest', (req, res) => {  // success response call made in the db.newlyListed function¸/*  */
+app.get('/home/newest', (req, res) => {
   db.newlyListed(res)
 });
 

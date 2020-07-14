@@ -3,9 +3,6 @@ import Prev from '../png/prev.png';
 import Next from '../png/next.png';
 import {SimilarPrevContainer, PrevPng, SimilarNextContainer, NextPng,} from '../styles/Buttons.js';
 
-// onClick={props.prevChangeState()}
-// onClick={props.nextChangeState()}
-
 const SimilarButtons = (props) => (
   <React.Fragment>
       <SimilarPrevContainer

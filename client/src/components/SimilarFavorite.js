@@ -3,15 +3,9 @@ import {HeartFirstImg, RedHeartFirstImg, HeartBottomImg, RedHeartBottomImg} from
 import EmptyHeart from '../png/empty_heart.png';
 import RedHeart from '../png/red_heart.png';
 
-// <RedHeartBottomImg/>
-// <HeartBottomImg/>
-
-// props.savedProp
-
 function SimilarFavorite(props) {
   const {favorite} = props.propData;
   var heartsUp;
-
 
     if (heartsUp === undefined) {
       if (favorite) {

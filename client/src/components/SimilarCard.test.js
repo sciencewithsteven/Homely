@@ -15,11 +15,3 @@ describe('', () => {
     expect(wrapper.find("TitleHeading").text()).toContain("Similar Homes You May Like");
   })
 })
-
-// Test render
-
-// Test Buttons
-
-// Test stuff that appears on card
-
-// price, svg, image, etc...

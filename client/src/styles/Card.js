@@ -14,12 +14,6 @@ const PropImage = styled.img`
   }
 `;
 
-// Deleted
-// border-radius: 2em 2em 2em 2em;
-// display: flex;
-// margin-left: 25px;
-// transform: scale(1.5);
-
 const PropImageFrame = styled.div`
 width: 224px;
 height: 160px;
@@ -29,9 +23,6 @@ display: grid;
 grid-template-columns: repeat(20, 1fr);
 position: relative;
 `;
-
-// Deleted
-// border-radius: 1em 1em 1em 1em;
 
 const SeeMoreHomes = styled.div`
 width: 224px;
@@ -76,11 +67,6 @@ const ColumnContainer = styled.div`
   }
 `;
 
-// transition: transform 300ms cubic-bezier(0.455 0.03 0.515 0.995)
-
-// Deleted
-// padding: 0 20px;
-
 const CardContainer = styled.div`
   height: auto;
   width: 250px;
@@ -94,10 +80,6 @@ const CardContainer = styled.div`
   display: table;
 `;
 
-// Deleted
-// padding: 40px;
-// border-style: solid;
-
 const ContentSlider = styled.div`
 width: 980px;
 display: flex;
@@ -105,18 +87,6 @@ flex-direction: row;
 flex-wrap: nowrap;
 overflow-x: hidden;
 `;
-
-// Testing
-// Position: static;
-// original width: 960px;
-
-// Deleted
-// overflow-x: scroll;
-// overflow-x: auto;
-// overflow-x: hidden;
-// justify-content: center;
-// transition: transform 300ms;
-// transform: translateX(-33%);
 
 const MainContainer = styled.div`
 display: flex;
@@ -132,9 +102,6 @@ flex-direction: column;
 height: 304;
 box-sizing: border-box;
 `;
-
-// Deleted
-// margin: 32px 0px;
 
 const TitleContainer = styled.div`
 width: inherit

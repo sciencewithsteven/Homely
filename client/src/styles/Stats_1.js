@@ -40,9 +40,6 @@ const SvgBed = styled.img`
   width: 15px;
 `;
 
-//BATH
-// https://upload.wikimedia.org/wikipedia/commons/f/fe/Font_Awesome_5_solid_bath.svg
-
 const SvgBath = styled.img`
 height: 15px;
 width: 15px;

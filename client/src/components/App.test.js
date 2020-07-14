@@ -1,27 +1,7 @@
 import React from 'react';
-
-// Only component that seems to be used from enzyme,
 import {shallow} from 'enzyme';
-//could use react-scripts or react-testing-library instead
-// import {render} form '@testing-library/react';
+import App from './App';
 
-// import {componentName} from './ComponentName';
-import App from './App'; // No brackets needed for a [default export]
-// import {Footer} from './components/Footer'; // Example react component function
-
-
-//EXAMPLE 1 OF JEST + ENZYME
-
-/*
-.text()
-.exists()
-.simulated()
-*/
-
-/*
-.toBe()
-.toContain()
- */
 
 it('Describe desired outcome', () => {
   const wrapper = shallow(<App />)

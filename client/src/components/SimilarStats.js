@@ -3,8 +3,6 @@ import {BbsfContainer, BbsfBedContainer, BbsfBathContainer, BbsfSfContainer,  Sv
 import {AddressContainer, PriceContainer, StatsContainer, CityStateContainer, StreetContainer} from '../styles/Stats_2.js';
 import {Price, BedNum, BathNum, SfNum, Street, CityState} from '../styles/Stats_2.js';
 
-// const priceConvert = new Intl.NumberFormat('en', {style: 'currency', currency: 'USD'}).format(props.propStats.current_list_price)
-
 const SimilarStats = (props) => (
     <StatsContainer >
       <PriceContainer>
@@ -47,49 +45,5 @@ const SimilarStats = (props) => (
       </AddressContainer>
     </StatsContainer>
 )
-
-// <div className="stat-box">
-//                       <div className="stat-padding">
-//                         <div className="price-box">
-//                           <div className="price">
-//                             {`$ ${item.current_list_price}`}
-//                           </div>
-//                         </div>
-//                         <div className="bbsf-box">
-//                           <div className="bbsf-bed">
-//                             <div className="bbsf-bed-svg">
-//                             </div>
-//                             <div className="bbsf-bed-stat">
-//                               {item.num_bed}
-//                             </div>
-//                           </div>
-//                           <div className="bbsf-bath">
-//                             <div className="bbsf-bath-svg">
-//                             </div>
-//                             <div className="bbsf-bath-stat">
-//                               {item.num_bath}
-//                             </div>
-//                           </div>
-//                           <div className="bbsf-sf">
-//                             <div className="bbsf-sf-svg">
-//                               <img className={styles.bedSvg} src="https://webstockreview.net/images/clipart-bed-svg-2.png"/>
-//                             </div>
-//                             <div className="bbsf-sf-stat">
-//                               {`SQ-FT`}
-//                             </div>
-//                           </div>
-//                         </div>
-//                         <div className="street-box">
-//                           <div className="street">
-//                           </div>
-//                         </div>
-//                         <div className="city-state-box">
-//                           <div className="city-state">
-//                             {`${item.city} ${item.state}`}
-//                           </div>
-//                         </div>
-//                       </div>
-//                       </div>
-//                   </div>
 
 export default SimilarStats;

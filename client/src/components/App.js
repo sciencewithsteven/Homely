@@ -25,7 +25,6 @@ class App extends React.Component {
     this.nextNew = this.nextNew.bind(this);
     this.savedSimilar = this.savedSimilar.bind(this);
     this.savedNewlyListed = this.savedNewlyListed.bind(this)
-    this.favoritePost = this.favoritePost.bind(this);
   }
 
   componentDidMount(){
@@ -123,14 +122,6 @@ class App extends React.Component {
     } else {
       this.state({favorite: true})
     }
-  }
-
-  favoritePost(key){
-    // axios.post('', params{})
-    // .then()
-    // .catch(error => {
-    //   console.error(error)
-    // })
   }
 
   render() {

@@ -3,9 +3,6 @@ import Prev from '../png/prev.png';
 import Next from '../png/next.png';
 import {NewestPrevContainer, PrevPng, NewestNextContainer, NextPng,} from '../styles/Buttons.js';
 
-// onClick={props.prevChangeState()}
-// onClick={props.nextChangeState()}
-
 const NewestButtons = (props) => (
   <React.Fragment>
       <NewestPrevContainer
