@@ -54,16 +54,17 @@ Assumes MongoDB is installed and running in the local environment.
 1. Install repo dependencies:
   * $ npm install
 
-2. Seed the test data:
-  * $ npm run seed
-
-3. Start the local server:
-  * $ npm run start
-
-4. Routes:
+2. Routes:
   * http://localhost:3535/home
   * http://localhost:3535/home/similar
   * http://localhost:3535/home/newest
+
+3. Seed the test data:
+  * run a GET request to http://localhost:3535/home
+
+4. Start the local server:
+  * $ npm run node-server
+
 
 
 
