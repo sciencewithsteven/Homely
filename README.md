@@ -1,4 +1,4 @@
-# Homely - A web app which helps you find you next home
+# Homely - A web app which helps you find your next home
 
 ## Goal:
 
