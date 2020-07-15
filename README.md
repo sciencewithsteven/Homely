@@ -38,13 +38,11 @@ Create two carousels for a property managment microservice for a real estate web
 
 **Carousel component:**
 
-Bottom
+**Bottom**
 
-![GitHub Logo](/siteImages/homely_top_component.jpg)
+<img src="siteImages/homely_top_component.jpg" width="500">
 
-Centered
-
-![GitHub Logo](/siteImages/homely_centered_component.jpg)
+**Centered**
 
 <img src="siteImages/homely_centered_component.jpg" width="500">
 
