@@ -32,8 +32,8 @@ app.get('/home/newest', (req, res) => {
   db.newlyListed(res)
 });
 
-app.listen(3002, function() {
-  console.log('listening on port 3002!');
+app.listen(3535, function() {
+  console.log('listening on port 3535!');
 });
 
 

@@ -8,30 +8,14 @@ Create two carousels for a property managment microservice for a real estate web
 
 **Systems Programing Language**
 * JavaScript
-* Java
-* C++
-* C#
-* Golang
-* Ruby
-* Python
 
 **Web Frameworks**
 * React.JS
-* Angular
-* Vue
 * Express
 * Axios
-* Django
-* Rails
-* Meteor
 
 **Database Managment**
 * MongoDB
-* Couchbase
-* Cassandra
-* MySQL
-* Postgress
-* Hbsae
 
 **Development Frameworks**
 * Babel
@@ -39,33 +23,23 @@ Create two carousels for a property managment microservice for a real estate web
 * Enzyme
 * Jest
 
-**Container Orchestration Services**
+**Container Orchestration Service**
 * Docker
-* AWS Images
-* Kubernetes
 
-**Public Cloud Services**
+**Public Cloud Service**
 * AWS
-* Google Cloud Platform
-* Azure
-* Heroku
-* Digital Ocean
-
-**Configuration Management Tools**
-* Salt
-* Puppet
-* Chef
-* Ansible
 
 **Collaborative Methodologies**
 * Continuous Integration
-* Unit, Integrated, Functional Testing
+* Unit, Functional Testing
 * Code Branching, Architecture Branching
 
 ## Images:
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+Carousel component:
+
+![GitHub Logo](/siteImages/homely_top_component.jpg)
+![GitHub Logo](/siteImages/homely_centered_component.jpg)
 
 
 ## Reproduction Steps:
@@ -81,9 +55,10 @@ Assumes MongoDB is installed and running in the local environment.
 3. Start the local server:
   * $ npm run start
 
-4. Routs:
-  *
+4. Routes:
+  * http://localhost:3535/home
+  * http://localhost:3535/home/similar
+  * http://localhost:3535/home/newest
 
-Pick any browser and load the site http://localhost:3001/homes/10 to see an example response for a request from the server.
 
 
