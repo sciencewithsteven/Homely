@@ -34,17 +34,15 @@ Create two carousels for a property managment microservice for a real estate web
 * Unit, Functional Testing
 * Code Branching, Architecture Branching
 
-## Images:
-
-**Carousel component:**
+## Component Images:
 
 **Bottom**
 
-<img src="siteImages/homely_top_component.jpg" width="500">
+<img src="siteImages/homely_top_component.jpg" width="400">
 
 **Centered**
 
-<img src="siteImages/homely_centered_component.jpg" width="500">
+<img src="siteImages/homely_centered_component.jpg" width="400">
 
 
 ## Reproduction Steps:
