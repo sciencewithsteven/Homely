@@ -36,9 +36,14 @@ Create two carousels for a property managment microservice for a real estate web
 
 ## Images:
 
-Carousel component:
+**Carousel component:**
+
+Bottom
 
 ![GitHub Logo](/siteImages/homely_top_component.jpg)
+
+Centered
+
 ![GitHub Logo](/siteImages/homely_centered_component.jpg)
 
 
