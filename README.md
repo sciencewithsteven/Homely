@@ -46,6 +46,8 @@ Centered
 
 ![GitHub Logo](/siteImages/homely_centered_component.jpg)
 
+<img src="siteImages/homely_centered_component.jpg" width="300">
+
 
 ## Reproduction Steps:
 
